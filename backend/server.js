@@ -30,7 +30,7 @@ app.use(jobProfileRoutes);
 app.use(announcementRoutes);
 app.use(teacherRoutes);
 app.use(cors({
-    origin: ["http://localhost:3000", "https://dept-finance.onrender.com"]
+    origin: ["http://localhost:3000", "https://demo-college-website.onrender.com"]
 }));
 app.use("/api/jobprofile", jobProfileRoutes);
 app.use("/api/announcement", announcementRoutes);
